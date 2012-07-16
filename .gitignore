@@ -4,3 +4,7 @@ obj
 
 # mstest test results
 TestResults
+/_ReSharper.NancyKayakDemo
+/packages
+/NancyKayakDemo.1.2.dotCover
+*.suo

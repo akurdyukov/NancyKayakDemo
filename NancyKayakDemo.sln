@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyKayakDemo", "NancyKayakDemo\NancyKayakDemo.csproj", "{86505CE3-666E-40B5-A99A-5C315001DB25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E6B2414C-D3A9-4E8D-88AD-06BE7B5C4565}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\nuget.exe = .nuget\nuget.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86505CE3-666E-40B5-A99A-5C315001DB25}.Debug|x86.ActiveCfg = Debug|x86
+		{86505CE3-666E-40B5-A99A-5C315001DB25}.Debug|x86.Build.0 = Debug|x86
+		{86505CE3-666E-40B5-A99A-5C315001DB25}.Release|x86.ActiveCfg = Release|x86
+		{86505CE3-666E-40B5-A99A-5C315001DB25}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
