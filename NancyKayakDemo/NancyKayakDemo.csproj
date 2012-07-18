@@ -61,10 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LocalBootstrapper.cs" />
+    <Compile Include="NancyWindsorOwinHost.cs" />
     <Compile Include="OwinHttpRequestDelegate.cs" />
     <Compile Include="OwinServer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

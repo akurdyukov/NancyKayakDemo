@@ -8,7 +8,7 @@ namespace NancyKayakDemo
         static void Main(string[] args)
         {
             // Create a new Nancy instance
-            var nancy = new Nancy.Hosting.Owin.NancyOwinHost();
+            var nancy = new NancyWindsorOwinHost();
 
             // Create a new OwinServer (based on Kayak)
             var server = new OwinServer(nancy.ProcessRequest);
